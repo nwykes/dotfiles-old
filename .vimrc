@@ -42,6 +42,7 @@ set wrapscan                      " Set the search scan to wrap around the file
 nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 
 set t_Co=256
+set background=dark
 colorscheme Tomorrow-Night
 
 set laststatus=2                  " always display a status line
