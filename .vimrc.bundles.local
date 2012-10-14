@@ -1,0 +1,4 @@
+Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-powerline'
