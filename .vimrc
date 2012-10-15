@@ -23,8 +23,8 @@ set backspace=indent,eol,start    " backspace behaves 'normally'
 
 " set softtabstop=2
 set smartindent
-set shiftwidth=4                  " [2]
-set tabstop=4                     " tab is 4 spaces [2]
+set shiftwidth=2                  " [2]
+set tabstop=2                     " tab is 2 spaces [2]
 set expandtab                     " use spaces
 
 set textwidth=0
@@ -45,6 +45,8 @@ set t_Co=256
 set background=dark
 colorscheme Tomorrow-Night
 
+let g:Powerline_symbols = 'fancy'
+
 set laststatus=2                  " always display a status line
 
 set number                        " show line numbers
@@ -60,7 +62,16 @@ set cmdheight=2                   " Make command line two lines high
 " Use the same symbols as TextMate for tabstops and EOLs
 " Show Invisibles (http://vimcasts.org/episodes/show-invisibles/) 
 set list
-set listchars=tab:▸\ ,eol:¬
+
+set listchars=""                  " Reset the listchars
+set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
+set listchars+=trail:.            " show trailing spaces as dots
+set listchars+=extends:>          " The character to show in the last column when wrap is
+                                  " off and the line continues beyond the
+                                  " right of the screen
+set listchars+=precedes:<         
+
+
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
@@ -81,10 +92,8 @@ set wildignore+=*.swp,*.bak,*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 nmap <silent> <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
-
-" navigate around in buffers...
-map <Leader>n :bnext<CR>
-map <Leader>p :bprevious<CR>
+" NERDTree
+nmap <leader>n :NERDTreeToggle<CR>
 
 " Maps Alt-[h,j,k,l] to resizing a window split
 map <silent> <A-h> <C-w><
