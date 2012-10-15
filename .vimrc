@@ -1,3 +1,5 @@
+let mapleader = ","
+
 set nocompatible
 set encoding=utf-8
 set hidden
@@ -93,7 +95,17 @@ nmap <silent> <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " NERDTree
-nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>n :NERDTreeTabsToggle<CR>
+let NERDTreeWinSize = 50
+let NERDTreeMinimalUI = 1
+let NERDTreeQuitOnOpen = 1
+let NERDTreeHighlightCursorline = 1
+let NERDTreeIgnore=['^bin$', '^tmp$', '^log$']
+let nerdtree_tabs_open_on_gui_startup = 0
+autocmd FileType nerdtree setlocal norelativenumber
+
+" format the entire file
+nmap <leader>fef ggVG=
 
 " Maps Alt-[h,j,k,l] to resizing a window split
 map <silent> <A-h> <C-w><
