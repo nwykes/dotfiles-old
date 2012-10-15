@@ -114,3 +114,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
   . /etc/bash_completion
 fi
 
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+
