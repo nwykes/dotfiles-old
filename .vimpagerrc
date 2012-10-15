@@ -1,1 +1,21 @@
-set noloadplugins
+let mapleader = ","
+
+set nocompatible
+set encoding=utf-8
+set hidden
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+
+if filereadable(expand("~/.vimpagerrc.bundles.local"))
+  source ~/.vimrc.bundles.local
+endif
+
+filetype plugin indent on
+
+syntax on
+
+colorscheme Tomorrow-Night
+set number

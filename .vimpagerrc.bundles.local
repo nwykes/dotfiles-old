@@ -1,0 +1,2 @@
+Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'kien/ctrlp.vim'
