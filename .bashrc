@@ -125,3 +125,8 @@ esac
 
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
+command -v vimpager >/dev/null && {
+  export PAGER=vimpager
+  alias less=$PAGER
+  alias zless=$PAGER
+}
