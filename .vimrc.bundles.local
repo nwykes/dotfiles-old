@@ -10,6 +10,6 @@ Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-bundler'
-
+Bundle 'jeetsukumaran/vim-buffergator'
 
 

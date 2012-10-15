@@ -61,8 +61,6 @@ set title                         " show file in titlebar
 set scrolloff=3                   " When the page starts to scroll, keep the cursor 3 lines from top/bottom
 set cmdheight=2                   " Make command line two lines high
 
-" Use the same symbols as TextMate for tabstops and EOLs
-" Show Invisibles (http://vimcasts.org/episodes/show-invisibles/) 
 set list
 
 set listchars=""                  " Reset the listchars
@@ -72,7 +70,6 @@ set listchars+=extends:>          " The character to show in the last column whe
                                   " off and the line continues beyond the
                                   " right of the screen
 set listchars+=precedes:<         
-
 
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
