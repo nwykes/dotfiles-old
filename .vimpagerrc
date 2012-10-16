@@ -17,5 +17,5 @@ filetype plugin indent on
 
 syntax on
 
-colorscheme Tomorrow-Night
+colorscheme base16-default
 set number
