@@ -23,7 +23,6 @@ set autoindent                    " automatically indent lines and try to do it 
 set smartindent
 set backspace=indent,eol,start    " backspace behaves 'normally'
 
-" set softtabstop=2
 set smartindent
 set shiftwidth=2                  " [2]
 set tabstop=2                     " tab is 2 spaces [2]
