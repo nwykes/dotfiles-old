@@ -73,7 +73,19 @@ set listchars+=precedes:<
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
-" md, markdown, and mk are markdown and define buffer-local preview
+function s:setupWrapping()
+  set wrap
+  set wrapmargin=2
+  set textwidth=79
+endfunction
+
+function s:setupMarkup()
+  call s:setupWrapping()
+  map <buffer> <Leader>p :Hammer<CR>
+endfunction
+
+"  md, markdown, and mk are markdown and define buffer-local preview
+au BufRead,BufNewFile *.{com,txt,md,markdown,mdown,mkd,mkdn} set ft=markdown
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 
 " add json syntax highlighting
