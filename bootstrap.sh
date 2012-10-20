@@ -1,8 +1,14 @@
-#!/bin/bash
+#!/bin/sh
 cd "$(dirname "$0")"
+echo "Updating from git"
 git pull
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
+
+  for f in ~/.zprezto/runcoms/*
+  do
+    ln -sf "$f" "$HOME/.${f##*/}"
+  done
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
@@ -14,4 +20,3 @@ else
 	fi
 fi
 unset doIt
-source ~/.bash_profile
