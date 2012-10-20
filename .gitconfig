@@ -2,7 +2,7 @@
   name = nwykes
   email = nwykes@gmail.com
 [core]
-  editor = subl -w
+  editor = vim
 [color]
   ui = auto
 [color "branch"]
