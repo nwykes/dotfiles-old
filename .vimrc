@@ -46,7 +46,13 @@ set t_Co=256
 set background=dark
 colorscheme base16-tomorrow
 
-let g:Powerline_symbols = 'fancy'
+if has("win32unix")
+  let g:Powerline_symbols = 'compatible'
+  highlight LineNr ctermbg=019
+else
+  let g:Powerline_symbols = 'fancy'
+endif
+
 
 set laststatus=2                  " always display a status line
 
