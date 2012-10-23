@@ -118,6 +118,9 @@ let NERDTreeIgnore=['^bin$', '^tmp$', '^log$']
 let nerdtree_tabs_open_on_gui_startup = 0
 autocmd FileType nerdtree setlocal norelativenumber
 
+" Buffergator
+let g:buffergator_autoexpand_on_split=0
+
 " format the entire file
 nmap <leader>fef ggVG=
 
