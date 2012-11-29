@@ -12,4 +12,5 @@ Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-bundler'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'tpope/vim-markdown'
-
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-endwise'
