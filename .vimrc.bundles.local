@@ -14,3 +14,5 @@ Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'tpope/vim-markdown'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-endwise'
+Bundle 'jnwhiteh/vim-golang'
+
