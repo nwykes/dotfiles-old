@@ -10,7 +10,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 if filereadable(expand("~/.vimpagerrc.bundles.local"))
-  source ~/.vimrc.bundles.local
+  source ~/.vimpagerrc.bundles.local
 endif
 
 filetype plugin indent on

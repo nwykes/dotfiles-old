@@ -1,2 +1,2 @@
-Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'chriskempson/base16-vim'
 Bundle 'kien/ctrlp.vim'
