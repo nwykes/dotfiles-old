@@ -43,6 +43,7 @@ set wrapscan                      " Set the search scan to wrap around the file
 nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 
 set t_Co=256
+let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
 colorscheme base16-tomorrow
 
