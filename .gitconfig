@@ -3,6 +3,7 @@
   email = nwykes@gmail.com
 [core]
   editor = vim
+  excludesfile = "~/.gitexcludes"
 [color]
   ui = auto
 [color "branch"]
@@ -18,3 +19,5 @@
   added = yellow
   changed = green
   untracked = cyan
+[push]
+	default = simple
