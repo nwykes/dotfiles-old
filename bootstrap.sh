@@ -16,4 +16,4 @@ else
 fi
 unset doIt
 
-#vim +BundleInstall! +qall
+vim +BundleInstall! +qall

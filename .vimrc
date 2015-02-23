@@ -1,5 +1,7 @@
 let mapleader = ","
 
+set shell=bash
+
 set nocompatible
 set encoding=utf-8
 set hidden
