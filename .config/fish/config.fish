@@ -2,7 +2,6 @@
 set fish_path $HOME/.oh-my-fish
 
 set -x PAGER vimpager
-alias less $PAGER
 
 # Theme
 set fish_theme agnoster
