@@ -45,7 +45,7 @@ nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 set t_Co=256
 let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
-colorscheme base16-tomorrow
+colorscheme solarized
 
 if has("win32unix")
   let g:Powerline_symbols = 'compatible'
