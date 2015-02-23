@@ -2,10 +2,7 @@
 set fish_path $HOME/.oh-my-fish
 
 # Theme
-set -g theme_display_hg no
-set -g theme_display_virtualenv no
-set -g theme_display_ruby no
-set fish_theme bobthefish
+set fish_theme agnoster
 
 # All built-in plugins can be found at ~/.oh-my-fish/plugins/
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
