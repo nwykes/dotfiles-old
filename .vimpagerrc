@@ -17,5 +17,6 @@ filetype plugin indent on
 
 syntax on
 
-colorscheme base16-tomorrow
+set background=dark
+colorscheme solarized
 set number
