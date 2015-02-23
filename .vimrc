@@ -49,13 +49,7 @@ let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
 colorscheme solarized
 
-if has("win32unix")
-  let g:Powerline_symbols = 'compatible'
-  highlight LineNr ctermbg=019
-else
-  let g:Powerline_symbols = 'fancy'
-endif
-
+let g:airline_powerline_fonts=1
 
 set laststatus=2                  " always display a status line
 
