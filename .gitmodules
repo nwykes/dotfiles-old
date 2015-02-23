@@ -10,3 +10,6 @@
 [submodule ".colors/base16-shell"]
 	path = .colors/base16-shell
 	url = git@github.com:chriskempson/base16-shell.git
+[submodule ".oh-my-fish"]
+	path = .oh-my-fish
+	url = git@github.com:bpinto/oh-my-fish.git
