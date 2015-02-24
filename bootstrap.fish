@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/bin/env fish
 function has
     type $argv[1] > /dev/null 2>&1
     return $status
