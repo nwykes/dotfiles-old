@@ -50,6 +50,7 @@ set background=dark
 colorscheme solarized
 
 let g:airline_powerline_fonts=1
+let g:airline#extensions#tmuxline#enabled = 0
 
 set laststatus=2                  " always display a status line
 
