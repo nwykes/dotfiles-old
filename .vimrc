@@ -7,10 +7,10 @@ set encoding=utf-8
 set hidden
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
     source ~/.vimrc.bundles.local
@@ -44,8 +44,8 @@ set wrapscan                      " Set the search scan to wrap around the file
 
 nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 
-set t_Co=256
-let base16colorspace=256  " Access colors present in 256 colorspace
+set t_Co=16
+"let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
 colorscheme solarized
 

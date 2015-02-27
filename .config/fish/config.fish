@@ -12,7 +12,7 @@ set fish_theme agnoster
 set fish_plugins theme vundle
 
 # Path to your custom folder (default path is ~/.oh-my-fish/custom)
-#set fish_custom $HOME/dotfiles/oh-my-fish
+set fish_custom $HOME/.config/fish/custom
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish

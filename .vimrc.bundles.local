@@ -1,4 +1,3 @@
-Bundle 'chriskempson/base16-vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
