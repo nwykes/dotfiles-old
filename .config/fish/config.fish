@@ -19,3 +19,8 @@ set fish_custom $HOME/.config/fish/custom
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+Theme "agnoster"
+
+Plugin "theme"
+Plugin "vundle"
