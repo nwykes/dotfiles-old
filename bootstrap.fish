@@ -14,7 +14,7 @@ if not has git
 end
 
 echo "Updating from git"
-git pull; and git submodule update --init --recursive
+git pull; and git submodule update --init --remote --recursive
 
 if set -q argv
   echo "test"
