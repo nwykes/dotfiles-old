@@ -14,7 +14,7 @@ if not has git
 end
 
 echo "Updating from git"
-git pull; and git submodule update --init --remote --recursive
+git pull; and echo "Updating submodules"; and git submodule update --init --remote --recursive; and echo "Done"
 
 if set -q argv
   echo "test"
@@ -34,4 +34,3 @@ else
       exit
   end
 end
-
