@@ -16,6 +16,5 @@ set fish_custom $HOME/.config/fish/custom
 # Custom plugins and themes may be added to ~/.oh-my-fish/custom
 # Plugins and themes can be found at https://github.com/oh-my-fish/
 Theme 'agnoster'
-Theme 'bobthefish'
 Plugin 'theme'
 Plugin 'vundle'
