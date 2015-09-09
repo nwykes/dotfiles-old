@@ -1,6 +1,3 @@
-[submodule ".vim/bundle/vundle"]
-	path = .vim/bundle/vundle
-	url = https://github.com/gmarik/vundle.git
 [submodule ".colors/base16-iterm2"]
 	path = .colors/base16-iterm2
 	url = git@github.com:chriskempson/base16-iterm2.git
