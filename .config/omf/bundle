@@ -1,3 +1,2 @@
+package vundle
 theme agnoster
-theme default
-package git@github.com:nwykes/plugin-vundle.git

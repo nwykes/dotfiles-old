@@ -10,7 +10,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
     source ~/.vimrc.bundles.local
@@ -44,10 +44,10 @@ set wrapscan                      " Set the search scan to wrap around the file
 
 nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 
-set t_Co=16
+"set t_Co=16
 let base16colorspace=256  " Access colors present in 256 colorspace
 set background=dark
-colorscheme base16-tomorrow
+colorscheme base16-eighties
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tmuxline#enabled = 0
@@ -74,8 +74,8 @@ set listchars+=extends:>          " The character to show in the last column whe
                                   " right of the screen
 set listchars+=precedes:<         
 
-highlight NonText guifg=#4a4a59
-highlight SpecialKey guifg=#4a4a59
+"highlight NonText guifg=#4a4a59
+"highlight SpecialKey guifg=#4a4a59
 
 function s:setupWrapping()
   set wrap
