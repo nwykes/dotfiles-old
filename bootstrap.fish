@@ -13,6 +13,11 @@ if not has git
 	exit 1
 end
 
+if not has omf
+  echo >&2 "You need to install oh-my-fish"
+  exit 1
+end
+
 echo "Updating from git"
 git pull; and echo "Updating submodules"; and git submodule update --init --remote --recursive; and echo "Done"
 
