@@ -13,13 +13,13 @@ Clone the repository and put it anywhere you'd like.  I keep mine in ~/src/dotfi
 
 `git clone https://github.com/nwykes/dotfiles.git`
 
-cd to dotfiles directory and run the boostrap script:
+cd to dotfiles directory and run the bootstrap script:
 
 `./bootstrap.fish`
 
 ## Update
 
-cd to dotfiles directory and run the boostrap script.  It will pull the latest version, update the submodules and rsync the updated files to the home directory.
+cd to dotfiles directory and run the bootstrap script.  It will pull the latest version, update the submodules and rsync the updated files to the home directory.
 
 `./bootstrap.fish`
 
