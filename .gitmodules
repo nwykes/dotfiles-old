@@ -1,16 +1,9 @@
-[submodule ".zprezto"]
-	path = .zprezto
-	url = https://github.com/nwykes/prezto.git
-[submodule ".vim/bundle/vundle"]
-	path = .vim/bundle/vundle
-	url = https://github.com/gmarik/vundle.git
 [submodule ".colors/base16-iterm2"]
 	path = .colors/base16-iterm2
 	url = git@github.com:chriskempson/base16-iterm2.git
 [submodule ".colors/base16-shell"]
 	path = .colors/base16-shell
 	url = git@github.com:chriskempson/base16-shell.git
-[submodule ".oh-my-fish"]
-	path = .oh-my-fish
-	url = git@github.com:oh-my-fish/oh-my-fish.git
-	branch = master
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = git@github.com:VundleVim/Vundle.vim.git
