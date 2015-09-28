@@ -27,5 +27,8 @@ cd to dotfiles directory and run the boostrap script.  It will pull the latest v
 * install oh-my-fish if missing
 * more testing on linux
 
+## License
+Unless otherwise bundled with a separate license, all files are released under the MIT license. See [LICENSE](LICENSE) for details.
+
 ## Thanks to
 * [Mathias Bynens](https://github.com/mathiasbynens) for his [dotfiles](https://github.com/mathiasbynens/dotfiles) and bootstrap.sh which was the basis for my bootstrap.fish
