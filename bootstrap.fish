@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 function has
-    type $argv[1] > /dev/null 2>&1
-    return $status
+  type $argv[1] > /dev/null 2>&1
+  return $status
 end
 
 function rsync-it
@@ -24,8 +24,8 @@ git pull; and echo "Updating submodules"; and git submodule update --init --remo
 if set -q argv
   echo "test"
   if test $argv[1] = "-f"
-     echo "force"
-     rsync-it
+    echo "force"
+    rsync-it
   end
 else
   echo "This may overwrite existing files in your home directory. Are you sure? (y/n) "
