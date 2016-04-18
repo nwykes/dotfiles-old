@@ -9,8 +9,8 @@ function rsync-it
 end
 
 if not has git
-	echo >&2 "You need to install git - visit http://git-scm.com/downloads"
-	exit 1
+  echo >&2 "You need to install git - visit http://git-scm.com/downloads"
+  exit 1
 end
 
 if not has omf
