@@ -1,7 +1,8 @@
 # Base16 Shell
-eval sh $HOME/.colors/base16-shell/base16-eighties.dark.sh
-
+eval sh $HOME/.colors/base16-shell/scripts/base16-eighties.sh
 source ~/.config/omf/git_alias.fish
 
-set -x GOPATH ~/go
+set -g GOPATH ~/go
+
+set -g theme_color_scheme terminal2-dark
 
