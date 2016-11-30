@@ -45,9 +45,10 @@ set wrapscan                      " Set the search scan to wrap around the file
 nmap <silent> <Leader>/ :nohlsearch<CR>  " Clear the find buffer
 
 "set t_Co=16
-let base16colorspace=256  " Access colors present in 256 colorspace
+"let base16colorspace=256  " Access colors present in 256 colorspace
+set termguicolors
 set background=dark
-colorscheme base16-eighties
+colorscheme gruvbox
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tmuxline#enabled = 0
