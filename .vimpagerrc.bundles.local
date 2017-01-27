@@ -1,3 +1,2 @@
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'chriskempson/base16-vim'
+Bundle 'morhetz/gruvbox'
 Bundle 'kien/ctrlp.vim'

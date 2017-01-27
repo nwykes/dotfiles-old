@@ -3,7 +3,7 @@ source ~/.config/omf/git_alias.fish
 
 set -g GOPATH ~/go
 
-set -g theme_color_scheme gruvbox
+set -g theme_color_scheme terminal2
 
 switch (uname)
     case Linux
