@@ -73,7 +73,7 @@ set listchars+=trail:.            " show trailing spaces as dots
 set listchars+=extends:>          " The character to show in the last column when wrap is
                                   " off and the line continues beyond the
                                   " right of the screen
-set listchars+=precedes:<         
+set listchars+=precedes:<
 
 "highlight NonText guifg=#4a4a59
 "highlight SpecialKey guifg=#4a4a59
@@ -146,5 +146,5 @@ cmap w!! w !sudo tee % >/dev/null
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
-	source ~/.vimrc.local
+  source ~/.vimrc.local
 endif
