@@ -4,6 +4,8 @@ source ~/.config/omf/git_alias.fish
 set -g GOPATH ~/go
 
 set -g theme_color_scheme gruvbox
+set -g theme_display_user ssh
+set -g theme_display_hostname ssh
 
 switch (uname)
     case Linux
@@ -16,7 +18,4 @@ switch (uname)
         set -gx CLICOLOR_FORCE 1
 end
 
-if begin; test -n "$SSH_CLIENT"; or test -n "$SSH_TTY"; end
-        set -g theme_display_user yes
-end
 
