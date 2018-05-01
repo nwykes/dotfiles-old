@@ -13,15 +13,10 @@ if not has git
   exit 1
 end
 
-if not has omf
-  echo >&2 "You need to install oh-my-fish"
-  exit 1
-end
-
 echo "Updating from git"
 git pull; and echo "Updating submodules"; and git submodule update --init --remote --recursive; and echo "Done"
 
-if set -q argv
+if count $argv > /dev/null
   echo "test"
   if test $argv[1] = "-f"
     echo "force"
@@ -32,9 +27,10 @@ else
   head -n 1 | read answer
   switch $answer
     case y\* Y\*
+      echo "do it"
       rsync-it
       . ~/.config/fish/config.fish
-      vundle-update
+#      vundle-update
     case \*
       exit
   end
