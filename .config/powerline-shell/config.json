@@ -8,5 +8,5 @@
     "jobs",
     "root"
   ],
-  "theme" : "~/.config/powerline-shell/mine.py"
+  "theme" : "gruvbox"
 }
