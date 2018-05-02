@@ -1,16 +1,21 @@
 #!/usr/bin/env fish
-function has
-  type $argv[1] > /dev/null 2>&1
-  return $status
-end
 
 function rsync-it
   rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.fish" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
 end
 
-if not has git
+if not type -qf git
   echo >&2 "You need to install git - visit http://git-scm.com/downloads"
   exit 1
+end
+
+if not type -qf grc
+  echo >&2 "Please install grc"
+end
+
+if not type -q ~/go/bin/powerline-go
+  echo "powerline-go not installed. installing..."
+  go get -u github.com/justjanne/powerline-go
 end
 
 echo "Updating from git"
