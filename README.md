@@ -7,7 +7,7 @@ Uses rsync to copy dotfiles from repo location to home directory.
 ## Installation
 Fork this and customize it to make it your own.  Don't use blindly, as it will blow away your current dotfiles.
 
-git, [fish-shell](https://github.com/fish-shell/fish-shell/) and [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) need to be installed.
+[git](https://git-scm.com), [fish-shell](https://github.com/fish-shell/fish-shell/) and [golang](https://golang.org) need to be installed.
 
 Clone the repository and put it anywhere you'd like.  I keep mine in ~/src/dotfiles.  
 
@@ -24,8 +24,7 @@ cd to dotfiles directory and run the bootstrap script.  It will pull the latest 
 `./bootstrap.fish`
 
 ## ToDo
-* install oh-my-fish if missing
-* more testing on linux
+* more tests for missing dependencies
 
 ## License
 Unless otherwise bundled with a separate license, all files are released under the MIT license. See [LICENSE](LICENSE) for details.
